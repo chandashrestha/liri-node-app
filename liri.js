@@ -43,6 +43,23 @@ function doSomething(command, input) {
           "\nAlbum: " +
           data.tracks.items[0].album.name
       );
+      fs.appendFile(
+        "log.txt",
+        "\nArtist(s): " +
+          data.tracks.items[0].artists[0].name +
+          "\nSong's Name: " +
+          data.tracks.items[0].name +
+          "\nPreviewUrl: " +
+          data.tracks.items[0].preview_url +
+          "\nAlbum: " +
+          data.tracks.items[0].album.name +
+          "\n",
+        function(err) {
+          if (err) {
+            console.log(err);
+          }
+        }
+      );
     });
   } else if (command === "concert-this") {
     var query =
@@ -61,6 +78,21 @@ function doSomething(command, input) {
           formattedData[0].venue.city +
           "\nDate: " +
           dateTime
+      );
+      fs.appendFile(
+        "log.txt",
+        "\nVenue: " +
+          formattedData[0].venue.name +
+          "\nLocation: " +
+          formattedData[0].venue.city +
+          "\nDate: " +
+          dateTime +
+          "\n",
+        function(err) {
+          if (err) {
+            console.log(err);
+          }
+        }
       );
     });
   } else if (command === "movie-this") {
@@ -86,6 +118,31 @@ function doSomething(command, input) {
           "\nActors: " +
           formattedData.Actors
       );
+      fs.appendFile(
+        "log.txt",
+        "\nTitle: " +
+          formattedData.Title +
+          "\nYear: " +
+          formattedData.Year +
+          "\nimdbRating: " +
+          formattedData.imdbRating +
+          "\nRotten Tomato: " +
+          formattedData.Ratings[1].Value +
+          "\nCountry: " +
+          formattedData.Country +
+          "\nLanguage: " +
+          formattedData.Language +
+          "\nPlot: " +
+          formattedData.Plot +
+          "\nActors: " +
+          formattedData.Actors +
+          "\n",
+        function(err) {
+          if (err) {
+            console.log(err);
+          }
+        }
+      );
     });
   } else if (command === "do-what-it-says") {
     //random.txt
@@ -94,7 +151,6 @@ function doSomething(command, input) {
       if (err) {
         console.log(err);
       } else {
-
         var randomArray = data.split(",");
         command = randomArray[0];
 
