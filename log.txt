@@ -1,0 +1,62 @@
+Artist(s): Guns N' Roses
+Song's Name: November Rain
+PreviewUrl: null
+Album: Use Your Illusion I
+
+Artist(s): Eric Clapton
+Song's Name: Tears In Heaven
+PreviewUrl: https://p.scdn.co/mp3-preview/6db51a706aa23e959e1f3ee27f26848ec81ff812?cid=c2b00400d033471fa83e7c48889d19d1
+Album: Unplugged [Deluxe]
+
+Artist(s): Imagine Dragons
+Song's Name: I Don’t Know Why
+PreviewUrl: null
+Album: Evolve
+
+Title: Full Metal Jacket
+Year: 1987
+imdbRating: 8.3
+Rotten Tomato: 93%
+Country: UK, USA
+Language: English, Vietnamese
+Plot: A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.
+Actors: Matthew Modine, Adam Baldwin, Vincent D'Onofrio, R. Lee Ermey
+
+Title: Cast Away
+Year: 2000
+imdbRating: 7.8
+Rotten Tomato: 90%
+Country: USA
+Language: English, Russian
+Plot: A FedEx executive must transform himself physically and emotionally to survive a crash landing on a deserted island.
+Actors: Tom Hanks, Paul Sanchez, Lari White, Leonid Citer
+
+
+Title: Venom
+Year: 2018
+imdbRating: 7.1
+Rotten Tomato: 35/100
+Country: USA
+Language: English
+Plot: When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego "Venom" to save his life.
+Actors: Tom Hardy, Michelle Williams, Riz Ahmed, Scott Haze
+
+Venue: SSE Arena
+Location: Belfast
+Date: 10/27/2018
+
+Venue: Mandalay Bay Events Center
+Location: Las Vegas
+Date: 12/30/2018
+
+Venue: Wells Fargo Center
+Location: Philadelphia
+Date: 10/25/2018
+
+Venue: Wells Fargo Center
+Location: Philadelphia
+Date: 10/25/2018
+
+Venue: Empire
+Location: Austin
+Date: 10/26/2018
