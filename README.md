@@ -44,12 +44,14 @@ Using the fs Node package, LIRI will take the text inside of random.txt and then
 
 It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 
+*BONUS*
 **All the results are also appended to the log.txt file**
 
-Please refer to the following Screencastify 
+Please refer to the following Screencastify:
+* https://drive.google.com/file/d/1iNx_3PTjBzohAFTejcIPnwTTlN_h6vas/view
 
 Remember you do need to get your own SPOTIFY ID and a SPOTIFY SECRET to try this in your local machine.
-SPOTIFY_ID=your-spotify-id
-SPOTIFY_SECRET=your-spotify-secret
+* SPOTIFY_ID=your-spotify-id
+* SPOTIFY_SECRET=your-spotify-secret
 
 
