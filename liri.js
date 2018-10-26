@@ -25,12 +25,18 @@ doSomething(command, input);
 function doSomething(command, input) {
   if (command === "spotify-this-song") {
     //spotify search requires
+    var newInput;
+    if (input === ""){
+        newInput = "Ace of Base";
+    }else{
+        newInput = input;
+    }
     var query = {
-      type: "track",
-      query: input
-      // limit: 1
-    };
-
+        type: "track",
+        query: newInput,
+        limit: 20
+      };
+    
     spotify.search(query, function(err, data) {
       //   console.log(data.tracks.items);
       console.log(
@@ -61,7 +67,7 @@ function doSomething(command, input) {
         }
       );
     });
-  } else if (command === "concert-this") {
+    }   else if (command === "concert-this") {
     var query =
       "https://rest.bandsintown.com/artists/" +
       input +
@@ -96,7 +102,12 @@ function doSomething(command, input) {
       );
     });
   } else if (command === "movie-this") {
-    var query = "http://www.omdbapi.com?apikey=trilogy&t=" + input;
+      if(input === ""){
+          newInput = "Mr. Nobody";    
+              }else{
+                  newInput = input;      
+      }
+    var query = "http://www.omdbapi.com?apikey=trilogy&t=" + newInput;
     //OMDBAPI
     request(query, function(err, response, data) {
       var formattedData = JSON.parse(data);
