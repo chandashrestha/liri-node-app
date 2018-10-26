@@ -27,7 +27,7 @@ function doSomething(command, input) {
     //spotify search requires
     var newInput;
     if (input === ""){
-        newInput = "Ace of Base";
+        newInput = "The Sign";
     }else{
         newInput = input;
     }
