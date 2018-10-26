@@ -38,7 +38,8 @@ function doSomething(command, input) {
       };
     
     spotify.search(query, function(err, data) {
-      //   console.log(data.tracks.items);
+    // var content = data.tracks.items;
+    // content.forEach(element =>{
       console.log(
         "Artist(s): " +
           data.tracks.items[0].artists[0].name +
@@ -67,6 +68,7 @@ function doSomething(command, input) {
         }
       );
     });
+    // });
     }   else if (command === "concert-this") {
     var query =
       "https://rest.bandsintown.com/artists/" +
