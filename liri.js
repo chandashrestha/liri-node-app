@@ -18,7 +18,7 @@ var request = require("request");
 var spotify = new SpotifyAPI(keys.spotify);
 
 var command = process.argv[2];
-var input = process.argv[3];
+var input = process.argv.slice(3).join(" ");
 
 doSomething(command, input);
 
